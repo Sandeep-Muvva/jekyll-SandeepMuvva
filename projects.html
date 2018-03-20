@@ -1,0 +1,26 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+---
+
+<link rel="stylesheet" href="/css/project.css">
+<div class="container-fluid background">
+{% for post in site.pages %}
+
+{% if post.categories=="nodejs"%}
+
+<div class="row margin border">
+<a href="{{post.link}}" style="color:black;" ><u><span class='bolder'>{{post.title}}</span></u></a>
+<br>
+<span class="bold">
+Tags: {{post.tags}}</span>
+  <br>
+  <br>
+<span class="bold padding">{{post.content}}</span>
+
+</div>
+{% endif %}
+
+  {% endfor %}
+</div>

@@ -1,0 +1,22 @@
+.margin{
+  margin:10%;
+}
+.border{
+  border: 2px solid #333333;
+}
+.bold{
+  font-size:20px;
+}
+.bolder{
+  font-size: 40px;
+
+}
+.padding{
+  padding:50px;
+}
+.background{
+
+  color:black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

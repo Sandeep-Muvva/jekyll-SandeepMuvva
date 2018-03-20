@@ -1,0 +1,15 @@
+---
+layout: default
+title: Skills
+permalink: /skills/
+---
+<link rel="stylesheet" href="/css/skills.css">
+<div class="container-fluid ">
+  <div class="padding">
+  {% for image in site.static_files %}
+    {% if image.path contains 'assets/skills' %}
+    <img src="{{site.baseurl}}{{image.path}}" width="150px"alt="image"/>
+    {% endif%}
+  {% endfor %}
+  </div>
+</div>
