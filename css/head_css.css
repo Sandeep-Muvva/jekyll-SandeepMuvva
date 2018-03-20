@@ -1,6 +1,6 @@
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color:#f2762b;
 }
 
 .navbar a {
@@ -23,4 +23,3 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
-hr { background-color: white; height: 1px; border: 0; }
